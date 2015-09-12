@@ -1,12 +1,13 @@
 " ===============================
 " Setup:
-" Include following line in ~/.vimrc
+" Include following line in ~/.vimrc:
 "   source $PATH_TO_HERE/vim_config.vim
-"
+" Then run:
+"   git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"   vim +PluginInstall +qall
 
 " ================================
 " Vundle config
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 "
 set nocompatible
 filetype off
