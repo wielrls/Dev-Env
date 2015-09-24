@@ -24,6 +24,7 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
+Plugin 'ervandew/supertab'
 
 " Color Schemes
 Plugin 'Lokaltog/vim-distinguished'
@@ -40,6 +41,7 @@ set background=dark
 colorscheme distinguished
 
 set hlsearch
+set incsearch
 
 set expandtab
 set shiftwidth=2
