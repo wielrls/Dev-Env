@@ -52,5 +52,8 @@ set colorcolumn=+1
 
 set nobackup
 
+set ignorecase
+set smartcase
+
 " Strip trailing whitespace from all files on save
 autocmd BufWritePre * :%s/\s\+$//e
