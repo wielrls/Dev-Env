@@ -28,6 +28,7 @@ Plugin 'ervandew/supertab'
 
 " Color Schemes
 Plugin 'Lokaltog/vim-distinguished'
+Plugin 'elzr/vim-json'
 
 
 " All of your Plugins must be added before the following line
