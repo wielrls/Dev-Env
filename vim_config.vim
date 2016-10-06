@@ -25,6 +25,7 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 Plugin 'ervandew/supertab'
+Plugin 'leafgarland/typescript-vim'
 
 " Color Schemes
 Plugin 'Lokaltog/vim-distinguished'
