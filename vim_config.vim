@@ -26,6 +26,9 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'Raimondi/delimitMate'
 Plugin 'ervandew/supertab'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 
 " Color Schemes
 Plugin 'Lokaltog/vim-distinguished'
@@ -49,13 +52,18 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
-set textwidth=80
+set textwidth=100
 set colorcolumn=+1
 
 set nobackup
 
 set ignorecase
 set smartcase
+
+set number
+
+"" enable status line (for airline)
+set laststatus=2
 
 " Strip trailing whitespace from all files on save
 autocmd BufWritePre * :%s/\s\+$//e
