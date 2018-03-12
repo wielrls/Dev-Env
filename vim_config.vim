@@ -33,6 +33,7 @@ Plugin 'airblade/vim-gitgutter'
 " Color Schemes
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'elzr/vim-json'
+Plugin 'jbnicolai/vim-AnsiEsc'
 
 
 " All of your Plugins must be added before the following line
