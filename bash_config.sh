@@ -19,6 +19,7 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 #
 # Useful aliases
 #
+alias less='less -R'
 alias gg='git grep -n'
 alias nr='npm run'
 alias v='vim'
