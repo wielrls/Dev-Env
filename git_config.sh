@@ -5,6 +5,9 @@
 # Run this file once
 #
 
+# Configure default branch name
+git config --global init.defaultBranch main
+
 # Configure common aliases
 git config --global alias.co checkout
 git config --global alias.br branch
