@@ -25,6 +25,7 @@ setopt CORRECT_ALL
 # Useful aliases
 #
 alias less='less -R'
+alias g='git'
 alias gg='git grep -n'
 alias v='vim'
 alias y='yarn'
